@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(to bottom ,rgb(250, 250, 250) 0%,rgb(255, 255, 255) 40%,rgb(1, 1, 170)  40%,rgb(1, 1, 170) 100%);
+}
+a{
+text-decoration: none;
+font-family: monospace;
+}
+#nav{
+    height: 12vh;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    padding-left: 2vh;
+    align-items: center;
+    gap: 10%;
+    flex-flow: row;
+    border: 1px solid rgba(70, 67, 67, 0.651);
+
+  position: relative;
+    top: 5px;
+    padding-right: 2vh;
+}
+#logo{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    border: 2px solid black;
+     background: url("../IMG/pdf-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#name-of-web{
+    color: rgb(13, 26, 212);
+font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+   font-size: 2rem;
+}
+ #manu-box-of-nav{
+           min-height: 7vh;
+      min-width: 7vh;
+    border-radius: 8px;
+border: 1px solid black;
+/* box-shadow: 2px 2px 2px red; */
+ margin-left: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1805c4;
+}
+ #manu-box-of-nav.manu_active{
+    background-color: #5ab81c;
+ }
+#inner-menu-box-of-nav{
+    box-shadow: inset 4px 4px 10px rgb(3, 3, 85),
+ inset   -4px -4px 10px rgb(8, 8, 131);
+      height: 5.5vh;
+      width: 5.5vh;
+    border-radius: 5px;
+    background-color: #2f1be4;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+  gap: 10%;
+flex-direction: column;
+
+}
+
+#inner-menu-box-of-nav.ma1{
+    background-color: #22ff1a;
+    box-shadow: inset 4px 4px 10px rgb(13, 172, 145),
+ inset   -4px -4px 10px rgb(8, 8, 131);
+}
+
+.line-of-menu{
+    background-color: rgb(7, 231, 37);
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 16%;
+    width: 80%;
+  
+}
+
+ .home{
+border: 1px solid black;
+background-color: #220cec;
+padding: 1px;
+border-radius: 4px;
+color: white;
+margin-bottom: 10px;
+font-size: 3vh;
+width: 18vh;
+text-align: center;
+}
+#manu{
+position: absolute;
+top: -100vh;
+   
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+#manu.manu2{
+
+   position: absolute;
+top: 12.5vh;
+    min-height: 30vh;
+    min-width: 20vh;
+    background-color: #08287e;
+    border: 1px solid black;
+      position: absolute;
+      border-radius: 10px ;
+      border: 6px solid rgb(7, 7, 94);
+      right: 1vh;
+      padding: 10px;
+     
+}
+
+#welcome-box{
+
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#welcome-box #greating{
+    color: rgb(0, 47, 255);
+    padding: 10px;
+    
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ #greating-error{
+    color: rgb(255, 2, 2);
+    padding: 10px;
+    
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#welcome-box #greating-text{
+    color: rgb(5, 24, 87);
+    padding: 2vh;
+    margin: 2vh;
+    margin: 10px;
+    font-size: 3vh;
+    text-shadow: 1px 1px 1px rgb(32, 255, 236);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}/* main code start  */
+
+#option-box{
+   
+    width: 100%;
+    /* position: absolute;
+    top: 50%; */
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    flex-direction: column;
+height: 100%;
+margin-bottom: 5vh;
+
+}
+#option-box .option{
+    height: 15vh;
+    width: 60%;
+    border:1px solid rgb(83, 73, 73);
+    border-radius: 10px ;
+    box-shadow: 2px 2px 1px rgba(255, 255, 255, 0.473),inset 2px 2px 0px rgb(11, 76, 173);
+    background:linear-gradient(to right, rgb(8, 127, 206),blue);
+  display: flex;
+  align-items: center;
+  padding-left: 2vh;
+  gap: 10%;
+}
+#option-box .option:hover{
+     height: 16vh;
+    width: 62%;
+    border:1px solid rgb(255, 247, 247);
+    border-radius: 10px ;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.473),inset 2px 2px 0px rgb(11, 76, 173);
+    
+  position: relative;
+}
+#option-box .option .pdf-logo{
+    height: 12vh;
+    width: 12vh;
+    border: 1px solid rgb(170, 151, 151);
+    background: url("../IMG/pdf-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+#message_ing{
+    height: 60vh;
+    background-color: #22ff1a;
+    margin: auto;
+    background: url("../IMG/error.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+}
+#option-box .option .pdf-text{
+    color: aliceblue;
+    font-size: 3vh;
+}
+#option-box button{
+    border: 2 solid rgb(124, 172, 14);
+    background-color: aliceblue;
+    padding: 10px;
+    height: 10vh;
+    width: 45vh;
+    border-radius:10px ;
+    color: aliceblue;
+    font-size: 5vh;
+font-family: Georgia, 'Times New Roman', Times, serif;    background-color: rgb(15, 252, 15);
+    
+
+}
+.download-box-of-page{
+    height: 55vh;
+}
+/*  from ka data */
+
+
+/* end main code  */
+
+
+footer{
+    height: 8vh;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px black;
+        
+  
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vh;
+    background-color: rgb(36, 97, 177);
+    color: aliceblue;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS\style.css">
+    <link rel="stylesheet" href="../CSS/img-to-pdf.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div id="logo"></div>
+            <h1 id="name-of-web">PDF EDIT</h1>
+ <div id="manu-box-of-nav">
+        <div id="inner-menu-box-of-nav">
+            <div class="line-of-menu"></div>
+            <div class="line-of-menu"></div>
+            <div class="line-of-menu"></div>
+        </div>
+    </div>
+     <div id="manu">
+<a href="../index.html" class="home">HOME</a><a href="https://www.instagram.com/shivam_kumar037s?igsh=MTh1ejg5bTN2cm1xdQ==" class="home">Instagram</a><a href="" class="home">Linked In</a><a href="https://github.com/Shivamkumar037" class="home">Github</a>
+
+
+    </div>
+        </nav>
+        <div id="welcome-box">
+            <h1 id="greating">SELECT OPTION</h1>
+            <p id="greating-text">
+Delete Pages 
+            </p>
+        </div>
+    </header>
+    <main>
+
+
+<div id="option-box">
+
+<form action="http://localhost:8080/api/pdf/delete-pdf" method="post" enctype="multipart/form-data">
+       <label for="name-of-label">UPLOAD</label><br>
+        <input type="file" id="name-of-label" name="delete-page" accept="application/pdf" required>
+        <label for="name-of-label2">Page No with comma ,</label><br>
+        <strong>* Only Number with comma seprated</strong>
+        <input type="text" id="name-of-label2" name="delete-page-no" placeholder="Example:- 1,3,5"  required>  
+        <input id="submit" type="submit">
+
+    </form>
+
+    <!-- <div class="option">
+        <div class="pdf-logo"></div>
+        <p class="pdf-text">IMG TO PDF</p>
+    </div>
+
+    <div class="option">
+        <div class="pdf-logo"></div>
+        <p class="pdf-text">MARGE PDF</p>
+    </div>
+    <div class="option"><div class="pdf-logo"></div>
+        <p class="pdf-text">DELETE PAGES</p>
+    </div>
+     -->
+</div>
+
+    </main>
+    <footer>
+        <p> Delelop by :- Shivam Kumar</p>
+        <p>&copy; All Right Recived</p>
+    </footer>   <script src="../JS/script.js"></script>
+</body>
+</html>
